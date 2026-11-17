@@ -4,6 +4,8 @@ import {
 } from "lucide-react";
 import solutionData from "../data/solutionData";
 import SolutionCard from "../Components/SolutionCard.jsx";
+import Testimonials from "../Components/Testimonials.jsx"
+import testimonialsData from "../data/testimonialsData.js";
 
 export default function Home(){
 
@@ -117,12 +119,13 @@ export default function Home(){
 </div>
 </section>
  
+ 
  {/*Why choose us section */}
 
  <section className="flex flex-2 gap-4 items-center justify-center bg-gray-100 m-4 p-8 rounded-2xl ">
   
 <img src="/images/whyChoose.png" alt="whychooseus"
-  className="m-2 p-2 rounded-2xl w-1/2 h-auto" />
+  className="m-2 p-2 rounded-2xl w-1/2  h-auto" />
 
 <div>
   {/*headings tags */}
@@ -164,8 +167,12 @@ export default function Home(){
     </div>
 </div>
 
-
  </section>
+
+{/*tesimonial section */}
+
+<Testimonials testimonialsData={testimonialsData} />
+
 </>
     )
 }
