@@ -173,6 +173,16 @@ export default function Home(){
 
 <Testimonials testimonialsData={testimonialsData} />
 
+{/*join section */}
+<section className=" relative min-h-[300px] flex flex-col justify-center items-center text-center px-5 py-12 m-3  mb-0
+ bg-[url('/images/homelast.png')] bg-cover bg-no-repeat bg-bottom">
+ {/*overlay */}
+ <div className="bg-black/30 p-4 rounded-2xl">
+ <h2 className="font-bold text-2xl text-white mb-3 drop-shadow-lg md:text">Let <span className="text-yellow-300 text-4xl">Solar Energy </span><br />Redefine Your Tomorrow!🌞</h2>
+ <p className="font font-semibold text-white mb-6">Go Green. Save More. Shine Brighter.</p>
+ <button className="p-3 bg-green-800 text-white rounded-2xl hover:bg-green-600 transition duration-300">Go Solar Today</button>
+</div>
+</section>
 </>
     )
 }
