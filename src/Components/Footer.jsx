@@ -4,7 +4,7 @@ export default function Footer(){
     return(
 <footer className="w-full shrink-0 flex flex-col md:flex-row
       justify-between items-center gap-8
-      bg-gradient-to-r from-green-950 via-green-800 to-emerald-950
+      bg-linear-to-r from-green-950 via-green-800 to-emerald-950
       text-white px-5 py-8 md:px-10
       transition-colors duration-300">
      <div>

@@ -27,7 +27,7 @@ export default function Home(){
           <span className="text-green-700">Clean Solar Energy</span>
         </h1>
 
-        <p className="mt-6 p-2 text-gray-600 bg-amber-50/80 md:bg-transparent">
+        <p className="mt-6 p-4 text-gray-600 bg-amber-50/80 md:bg-transparent">
           We design, supply and install high-quality solar systems
           for residential and commercial properties — making you
           save money and build a cleaner tomorrow.
