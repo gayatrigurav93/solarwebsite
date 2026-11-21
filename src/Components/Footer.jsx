@@ -2,8 +2,8 @@ import {FaFacebook, FaInstagram,FaEnvelope, FaCheckCircle,FaLeaf,FaSun } from "r
 
 export default function Footer(){
     return(
-<footer className=" flex flex-col w-full fixed bottom-0 md:flex-row justify-between items-center gap-4 
-bg-linear-to-r from-green-950 via-green-800 to-emerald-950 text-white p-2
+<footer className=" flex flex-col w-full md: flex-row justify-between items-center gap-4 
+z-50 bg-linear-to-r from-green-950 via-green-800 to-emerald-950 text-white p-2
 hover:text-green-400
 transition-all duration-300">
      <div>

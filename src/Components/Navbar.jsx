@@ -12,11 +12,11 @@ export default function Navbar(){
      
      <header className="fixed top-0 left-0 w-full h-28 z-50 flex items-center justify-between px-8 bg-white">
 
-        <div className="translate-x-[50px]">
+        <div className="translate-x-12.5">
             <h1 className=" px-2 py-2 text-2xl font-bold text-green-600">SolarPower</h1>
         </div>
 
-      <nav className="hidden md:flex items-center justify-center gap-3 translate-x-[-50px]">
+      <nav className="hidden md:flex items-center justify-center gap-3 translate-x--12.5">
         <NavLink to="/" className={({isActive})=> `px-2 py-2 ${isActive ? "text-green-500 font-semibold" :"text-gray-500 "}`}> Home </NavLink>
         <NavLink to="/About" className={({isActive})=> `px-2 py-2 ${isActive ? "text-green-500 font-semibold" :"text-gray-500 "}`}>About</NavLink>
         <NavLink to="/Services" className={({isActive})=> `px-2 py-2 ${isActive ? "text-green-500 font-semibold" :"text-gray-500"}`}>Services</NavLink>
