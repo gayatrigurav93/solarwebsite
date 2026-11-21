@@ -2,10 +2,11 @@ import {FaFacebook, FaInstagram,FaEnvelope, FaCheckCircle,FaLeaf,FaSun } from "r
 
 export default function Footer(){
     return(
-<footer className=" flex flex-col w-full md: flex-row justify-between items-center gap-4 
-z-50 bg-linear-to-r from-green-950 via-green-800 to-emerald-950 text-white p-2
-hover:text-green-400
-transition-all duration-300">
+<footer className="w-full shrink-0 flex flex-col md:flex-row
+      justify-between items-center gap-8
+      bg-gradient-to-r from-green-950 via-green-800 to-emerald-950
+      text-white px-5 py-8 md:px-10
+      transition-colors duration-300">
      <div>
         <h1 className="text-center text-xl font-bold">SalarPower</h1>
         <div className="flex gap-2 justify-center items-center">

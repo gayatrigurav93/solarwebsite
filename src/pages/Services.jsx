@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-
+import servicesData from "../data/servicesData";
+import ServiceCard from "../Components/ServiceCard";
 export default function Services(){
     const navigate = useNavigate();
    
@@ -23,6 +24,8 @@ export default function Services(){
         </div>
         </section>
 
+        {/*complete sercives with service cards */}
+<ServiceCard servicesData={servicesData}/>
          </>
     )
         
