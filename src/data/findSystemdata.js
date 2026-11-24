@@ -2,6 +2,7 @@ import { Sun, BatteryCharging, Zap } from "lucide-react";
 const findSystemData = [
 {id: 1,
     icon: Zap,
+    img:"/images/ongrid.png",
     title: "On-Grid Solar System",
     subtitle: "Connected to the Electricity Grid",
     description:
@@ -12,6 +13,7 @@ const findSystemData = [
       "Ideal for areas with reliable grid supply",
     ],},
 {id: 2,
+   img:"/images/offgrid.png",
     icon: BatteryCharging,
     title: "Off-Grid Solar System",
     subtitle: "Independent Power Solution",
@@ -24,6 +26,7 @@ const findSystemData = [
     ],},
 {id: 3,
     icon: Sun,
+     img:"/images/hybrid.png",
     title: "Hybrid Solar System",
     subtitle: "The Best of Both Worlds",
     description:
