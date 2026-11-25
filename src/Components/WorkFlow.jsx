@@ -1,7 +1,7 @@
 
 import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import workflowData from "../data/workflowData";
+import workFlowData from "../data/workFlowData.js";
 
 export default function Workflow() {
   const navigate = useNavigate();
@@ -33,7 +33,7 @@ export default function Workflow() {
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 lg:gap-2">
 
-          {workflowData.map((step, index) => {
+          {workFlowData.map((step, index) => {
 
             const Icon = step.icon;
 
@@ -75,7 +75,7 @@ export default function Workflow() {
                 </div>
 
                 {/* Forward arrow */}
-                {index !== workflowData.length - 1 && (
+                {index !== workFlowData.length - 1 && (
                   <ArrowRight
                     size={34}
                     strokeWidth={1.5}
