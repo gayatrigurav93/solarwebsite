@@ -1,7 +1,7 @@
 
 import { useNavigate } from "react-router-dom";
 import {
-  Sun,
+  
   Target,
   Eye,
   Award,
