@@ -4,7 +4,10 @@ export default function ContactInfo() {
     <section className="m-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
       {/* Phone */}
-      <div className="bg-white p-5 rounded-xl shadow">
+      <div className="bg-green-200 p-5 rounded-xl shadow 
+      hover:border-2 hover:border-green-400
+      hover:scale-105
+        transition-all duration-300">
         <h3 className="font-bold text-green-700">
           Phone
         </h3>
@@ -14,7 +17,10 @@ export default function ContactInfo() {
       </div>
 
       {/* Email */}
-      <div className="bg-white p-5 rounded-xl shadow">
+      <div className="bg-green-200  p-5 rounded-xl shadow
+       hover:border-2 hover:border-green-400 
+        hover:scale-105
+        transition-all duration-300">
         <h3 className="font-bold text-green-700">
           Email
         </h3>
@@ -24,7 +30,10 @@ export default function ContactInfo() {
       </div>
 
       {/* Address */}
-      <div className="bg-white p-5 rounded-xl shadow">
+      <div className="bg-green-200  p-5 rounded-xl shadow
+       hover:border-2 hover:border-green-400
+       hover:scale-105
+        transition-all duration-300">
         <h3 className="font-bold text-green-700">
           Address
         </h3>
@@ -32,7 +41,10 @@ export default function ContactInfo() {
       </div>
 
       {/* Social Media */}
-      <div className="bg-white p-5 rounded-xl shadow">
+      <div className="bg-green-200  p-5 rounded-xl shadow
+       hover:border-2 hover:border-green-400
+       hover:scale-105
+        transition-all duration-300">
         <h3 className="font-bold text-green-700">
           Follow Us
         </h3>

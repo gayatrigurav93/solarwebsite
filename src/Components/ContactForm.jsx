@@ -33,13 +33,13 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="bg-green-100 rounded-2xl shadow-md m-4 p-6">
+    <div className="bg-green-100 rounded-2xl shadow-md m-4 p-8">
 
       <h2 className="text-2xl font-bold text-green-800 mb-6">
         Get In Touch
       </h2>
 
-      <form onSubmit={handleSubmit} className="space-y-5">
+      <form onSubmit={handleSubmit} className="space-y-5 px-12">
 
         <div>
           <label htmlFor="name">Full Name</label>
