@@ -3,7 +3,7 @@ import servicesData from "../data/servicesData";
 import ServiceCard from "../Components/ServiceCard";
 import FindRightSystem from "../Components/FindRightSystem";
 import findSystemData from "../data/findSystemdata";
-import workflowData from "../data/workFlowData";
+import workFlowData from "../data/workFlowData";
 import WorkFlow from "../Components/WorkFlow";
 export default function Services(){
     const navigate = useNavigate();
