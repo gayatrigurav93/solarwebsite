@@ -5,6 +5,7 @@ import FindRightSystem from "../Components/FindRightSystem";
 import findSystemData from "../data/findSystemdata";
 import workFlowData from "../data/workFlowData";
 import WorkFlow from "../Components/WorkFlow";
+
 export default function Services(){
     const navigate = useNavigate();
    
@@ -31,13 +32,14 @@ export default function Services(){
         </section>
 
         {/*complete sercives with service cards */}
-<ServiceCard servicesData={servicesData}/>
+
+        < ServiceCard ServicesData={servicesData} />
          
          {/*find solar system  */}
          <FindRightSystem findSystemData={findSystemData}/>
          
          {/*working process */}
-           < WorkFlow workFlowData={workflowData}/>
+           < WorkFlow workFlowData={workFlowData}/>
 
          </>
     )
