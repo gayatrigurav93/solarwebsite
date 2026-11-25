@@ -2,10 +2,8 @@
 import ContactInfo from '../Components/ContactInfo.jsx'
 import ContactForm from '../Components/ContactForm.jsx'
 import ContactMap from '../Components/ContactMap.jsx'
+
 export default function Contact(){
-//form inpute state
-
-
     return(
         <>
         {/*header section */}

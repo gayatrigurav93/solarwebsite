@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import servicesData from "../data/servicesData";
-import ServiceCard from "../Components/ServiceCard";
-import FindRightSystem from "../Components/FindRightSystem";
-import findSystemData from "../data/findSystemdata";
-import workFlowData from "../data/workFlowData";
-import WorkFlow from "../Components/WorkFlow";
+import servicesData from "../data/servicesData.js";
+import ServiceCard from "../Components/ServiceCard.jsx";
+import FindRightSystem from "../Components/FindRightSystem.jsx";
+import findSystemData from "../data/findSystemdata.js";
+import workFlowData from "../data/workFlowData.js";
+import WorkFlow from "../Components/WorkFlow.jsx";
 
 export default function Services(){
     const navigate = useNavigate();
@@ -33,7 +33,7 @@ export default function Services(){
 
         {/*complete sercives with service cards */}
 
-        < ServiceCard ServicesData={servicesData} />
+        < ServiceCard servicesData={servicesData} />
          
          {/*find solar system  */}
          <FindRightSystem findSystemData={findSystemData}/>
