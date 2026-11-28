@@ -42,7 +42,9 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} className="space-y-5 px-12">
 
         <div>
-          <label htmlFor="name">Full Name</label>
+          <label htmlFor="name" className="block font-medium text-gray-700 mb-2">Full Name 
+            <span className="text-red-500">*</span>
+          </label>
           <input
             id="name"
             type="text"
@@ -56,7 +58,9 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email"
+          className="block font-medium text-gray-700 mb-2">Email  
+            <span className="text-red-500">*</span></label>
           <input
             id="email"
             type="email"
@@ -70,7 +74,10 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="phone">Phone Number</label>
+          <label htmlFor="phone"
+          className="block font-medium text-gray-700 mb-2">Phone Number
+             <span className="text-red-500">*</span>
+          </label>
           <input
             id="phone"
             type="tel"
@@ -84,7 +91,10 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="address">Address</label>
+          <label htmlFor="address"
+          className="block font-medium text-gray-700 mb-2">Address
+             <span className="text-red-500">*</span>
+          </label>
           <input
             id="address"
             type="text"
@@ -97,7 +107,8 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="query">Any Query?</label>
+          <label htmlFor="query"
+          className="block font-medium text-gray-700 mb-2">Any Query?</label>
           <textarea
             id="query"
             name="query"
